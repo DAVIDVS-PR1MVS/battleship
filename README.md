@@ -1,5 +1,5 @@
 # battleship
-Versão do jogo clássico de Batalha Naval desenvolvida em C#, aplicando conceitos estruturados de Orientação a Objetos em ambiente de console.
+Versão do jogo clássico de Batalha Naval desenvolvida em C#, pensado em funcionar diretamente no CMD, um jogo simples com três níveis de dificuldade e usando a lógica de plano cartesiano para o ultilizador.
 
 Batalha Naval - Console Application (C# Nativo)
 
