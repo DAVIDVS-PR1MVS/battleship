@@ -105,7 +105,7 @@ public class Game
             System.Console.WriteLine("Tentativas:" + attempts + "|acertos:" + hits);
             System.Console.WriteLine(new string('-', 45));
             System.Console.WriteLine("\n" + mensage + "\n");
-            
+
             System.Console.Write("    ");
             for (int col = 0; col < size; col++)
             {
@@ -175,16 +175,18 @@ public class Game
                 System.Console.WriteLine("    PARABENS, COMANDANTE! VITORIA TOTAL!     ");
                 System.Console.WriteLine("=============================================");
                 System.Console.WriteLine("Voce destruiu todos os " + ship + " navios em " + attempts + " tentativas.");
-                
+
                 System.Console.WriteLine("\n" + new string('-', 45));
                 System.Console.WriteLine(new string(' ', 18) + "CREDITOS");
                 System.Console.WriteLine(new string('-', 45));
                 System.Console.WriteLine("Autor: DAVIDVS");
                 System.Console.WriteLine("Colaboracao: Gemini (3.5 Flash-Estendido)");
                 System.Console.WriteLine(new string('-', 45));
-                
+
                 play = false;
             }
         }
+        System.Console.WriteLine("Pressione Enter para sair...");
+        System.Console.ReadLine();
     }
 }
