@@ -180,7 +180,7 @@ public class Game
                 System.Console.WriteLine(new string(' ', 18) + "CREDITOS");
                 System.Console.WriteLine(new string('-', 45));
                 System.Console.WriteLine("Autor: DAVIDVS");
-                System.Console.WriteLine("Colaboracao: Gemini (IA do Google)");
+                System.Console.WriteLine("Colaboracao: Gemini (3.5 Flash-Estendido)");
                 System.Console.WriteLine(new string('-', 45));
                 
                 play = false;
